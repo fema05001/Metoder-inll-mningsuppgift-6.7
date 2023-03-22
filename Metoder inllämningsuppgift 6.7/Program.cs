@@ -13,7 +13,7 @@ namespace metoder
             string a =Console.ReadLine();
             int b = int.Parse(a);
             Console.WriteLine(" ");
-            if (b % 3 == 0 & b!=3 || b % 2 == 0 & b!=2 || b % 5 ==0 & i!=5 || i % 7 ==0 & i !=7)
+            if (b % 3 == 0 & b!=3 || b % 2 == 0 & b!=2 || b % 5 ==0 & b!=5 || b % 7 ==0 & b !=7)
             {
                 Console.WriteLine("Talet du skrev in är inte ett primtal");
             }
